@@ -1,0 +1,43 @@
+AcceptPause: Indicates whether the service can be paused by the Service Control Manager (SCM) during operation.
+
+AcceptStop: Indicates whether the service can be stopped by the SCM.
+
+Caption: A short description or caption for the object.
+
+CreationClassName: The name of the class or the subclass used in the creation of the object.
+
+Description: A textual description of the object.
+
+DesktopInteract: Indicates whether the service can interact with the desktop. This property is deprecated in later versions of Windows.
+
+DisplayName: The display name of the service as it appears in the service control manager.
+
+ErrorControl: Indicates the severity of the error if the service fails to start during boot time.
+
+ExitCode: The exit code of the service process after it stops running.
+
+InstallDate: The date when the service was installed.
+
+Name: The name of the service.
+
+PathName: The path to the executable file associated with the service.
+
+ServiceSpecificExitCode: The service-specific exit code for the service if the service has terminated with an error.
+
+ServiceType: The type of service (e.g., kernel driver, file system driver, adapter, recognizer).
+
+Started: Indicates whether the service has been started.
+
+StartMode: Indicates how the service starts (e.g., Auto, Manual, Disabled).
+
+StartName: The account name under which the service runs.
+
+State: The current state of the service (e.g., Running, Stopped, Paused).
+
+Status: The operational status of the service.
+
+SystemCreationClassName: The name of the class of the operating system.
+
+SystemName: The name of the system where the service is installed.
+
+TagId: A unique identifier for this service among the services group.
